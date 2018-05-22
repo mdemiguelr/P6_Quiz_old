@@ -1,0 +1,19 @@
+<h1>
+    Result:
+</h1>
+
+<p>
+    The answer <strong> <%= answer %> </strong> is <%= result ? 'Right' : 'Wrong' %>.
+</p>
+
+<p>
+    <% if (!result) { %>
+    <a href="/quizzes/<%= quiz.id %>/play?answer=<%= answer %>"> Try it again </a>
+    <% } %>
+</p>
+<p>
+    Puntuacion actual:<b><%= quiz.score%></b>
+</p>
+
+<a href="/quizzes/randomplay"><button>Seguir jugando</button></a>
+<a href="/quizzes"><button>Volver </button></a>
