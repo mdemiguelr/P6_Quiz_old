@@ -2,7 +2,7 @@
 // Definition of the Quiz model:
 
 module.exports = function (sequelize, DataTypes) {
-    return sequelize.define('quizzes',
+    return sequelize.define('quiz',
         {
             question: {
                 type: DataTypes.STRING,
