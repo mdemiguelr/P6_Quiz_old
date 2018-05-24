@@ -8,10 +8,8 @@ const Sequelize = require('sequelize');
 //    DATABASE_URL = sqlite:quiz.sqlite
 // To use  Heroku Postgres data base:
 //    DATABASE_URL = postgres://user:passwd@host:port/database
-//url de acceso a la BBDD que se ha
-// creado en Heroku
 
-const url = process.env.DATABASE_URL || "sqlite:quiz.sqlite";
+const url = process.env.DATABASE_URL || "sqlite:quizzes.sqlite";
 
 const sequelize = new Sequelize(url);
 
@@ -23,11 +21,11 @@ sequelize.import(path.join(__dirname,'session'));
 
 // Create tables
 sequelize.sync()
-    .then(() => console.log('Data Bases created successfully'))
-    .catch(error => {
-        console.log("Error creating the data base tables:", error);
-        process.exit(1);
-    });
+.then(() => console.log('Data Bases created successfully'))
+.catch(error => {
+    console.log("Error creating the data base tables:", error);
+    process.exit(1);
+});
 
 
 module.exports = sequelize;
