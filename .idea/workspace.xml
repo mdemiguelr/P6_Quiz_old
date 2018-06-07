@@ -2,16 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0120433a-3500-454a-ab19-1fdb30f35bad" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/migrations/20180607203625-AddAuthorIdToTipsTable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/quiz_2018.iml" afterPath="$PROJECT_DIR$/.idea/P7_Quiz.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/favourite.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/helpers/attachments.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/migrations/20171210135000-CreateAttachmentsTable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/migrations/20171210152800-CreateFavouritesTable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/models/attachment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/none.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/question.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/star_grey.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/star_yellow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/attachments/_show.ejs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/views/favourites/_stars.ejs" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change beforePath="$PROJECT_DIR$/controllers/quiz.js" afterPath="$PROJECT_DIR$/controllers/quiz.js" />
-      <change beforePath="$PROJECT_DIR$/controllers/tip.js" afterPath="$PROJECT_DIR$/controllers/tip.js" />
+      <change beforePath="$PROJECT_DIR$/controllers/session.js" afterPath="$PROJECT_DIR$/controllers/session.js" />
       <change beforePath="$PROJECT_DIR$/models/index.js" afterPath="$PROJECT_DIR$/models/index.js" />
-      <change beforePath="$PROJECT_DIR$/views/tips/index.ejs" afterPath="$PROJECT_DIR$/views/tips/index.ejs" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change beforePath="$PROJECT_DIR$/views/quizzes/_form.ejs" afterPath="$PROJECT_DIR$/views/quizzes/_form.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/quizzes/edit.ejs" afterPath="$PROJECT_DIR$/views/quizzes/edit.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/quizzes/index.ejs" afterPath="$PROJECT_DIR$/views/quizzes/index.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/quizzes/new.ejs" afterPath="$PROJECT_DIR$/views/quizzes/new.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/quizzes/play.ejs" afterPath="$PROJECT_DIR$/views/quizzes/play.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/quizzes/show.ejs" afterPath="$PROJECT_DIR$/views/quizzes/show.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -26,15 +42,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="quiz.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="quiz.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-              <folding>
-                <marker date="1528405823146" expanded="true" signature="290:416" ph="{...}" />
-                <marker date="1528405823146" expanded="true" signature="309:410" ph="[...]" />
-              </folding>
+            <state relative-caret-position="186">
+              <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,7 +57,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2217">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1528406790108" expanded="true" signature="1919:2358" ph="//..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="259">
+              <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -73,8 +88,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>port</find>
       <find>3000</find>
+      <find>port</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,8 +101,8 @@
         <option value="$PROJECT_DIR$/models/index.js" />
         <option value="$PROJECT_DIR$/migrations/20180607203625-AddAuthorIdToTipsTable.js" />
         <option value="$PROJECT_DIR$/controllers/tip.js" />
-        <option value="$PROJECT_DIR$/controllers/quiz.js" />
         <option value="$PROJECT_DIR$/views/tips/index.ejs" />
+        <option value="$PROJECT_DIR$/controllers/quiz.js" />
       </list>
     </option>
   </component>
@@ -198,12 +213,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528401907825</updated>
       <workItem from="1528401909056" duration="415000" />
-      <workItem from="1528403399688" duration="3183000" />
+      <workItem from="1528403399688" duration="3403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3598000" />
+    <option name="totallyTimeSpent" value="3818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="192" y="23" width="882" height="703" extended-state="0" />
@@ -363,22 +378,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/quiz.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding>
-            <marker date="1528405823146" expanded="true" signature="290:416" ph="{...}" />
-            <marker date="1528405823146" expanded="true" signature="309:410" ph="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/session.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2217">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1528406790108" expanded="true" signature="1919:2358" ph="//..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -408,8 +414,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="51" column="37" lean-forward="true" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+        <state relative-caret-position="259">
+          <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/quiz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding />
         </state>
       </provider>
